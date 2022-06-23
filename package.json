@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@syncfusion/ej2-react-dropdowns": "^20.1.58",
+    "mdb-ui-kit": "^4.1.0",
+    "react-select": "^5.3.2"
+  }
+}

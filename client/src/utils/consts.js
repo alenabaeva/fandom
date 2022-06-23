@@ -1,0 +1,7 @@
+export const CHARACTER_ROUTE = "/character"
+export const FACULTY_ROUTE = "/faculty"
+export const LOCATION_ROUTE = "/location"
+export const SERIAL_ROUTE = "/serial"
+export const EPISODE_ROUTE = "/episode"
+export const CREATE_ROUTE = "/create"
+export const SEARCH_ROUTE = "/searchresult"

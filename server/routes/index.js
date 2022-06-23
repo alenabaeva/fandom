@@ -1,0 +1,21 @@
+const Router = require("express")
+const router = new Router()
+const serialRouter = require("./serialRouter")
+const episodeRouter = require("./episodeRouter")
+const characterRouter = require("./characterRouter")
+const locationRouter = require("./locationRouter")
+const facultyRouter = require("./facultyRouter")
+const relationshipRouter = require("./relationshipRouter")
+const family_tiesRouter = require("./kinshipRouter")
+const serialController = require("../controllers/serialController")
+
+router.use("/serial", serialRouter)
+router.use("/episode", episodeRouter)
+router.use("/character", characterRouter)
+router.use("/location", locationRouter)
+router.use("/faculty", facultyRouter)
+router.use("/relationship", relationshipRouter)
+router.use("/family_ties", family_tiesRouter)
+router.get("/", serialController.search)
+
+module.exports = router
